@@ -1,0 +1,88 @@
+.ResumeComp {
+    background-color: white;
+    /* height: 100%; */
+    width: 100%;
+    padding-top: 10px;
+    box-shadow: 0px 0px 5px #f1f1f1;
+}
+
+.ResumeComp .inner {
+    padding-left: 50px;
+    height: 100vh;
+
+}
+
+.ResumeComp .upperStrip {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 5px;
+    padding: 5px 0px;
+    background: linear-gradient(to right, #C3B1E1, #f79dca, #C3B1E1);
+    margin: 10px;
+    margin-top: 0px;
+
+}
+
+.ResumeComp .upperStrip>div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ResumeComp .upperStrip img {
+    width: 30px;
+}
+
+.ResumeComp .emailInfoStrip {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    gap: 20px;
+}
+
+.ResumeComp .greyColor {
+    color: #c0c0c0;
+    font-size: 14px;
+}
+
+.image-and-name,
+.experience,
+.eduction,
+.skillsCont {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 15px 0px;
+    border-bottom: 2px solid #d2cece;
+    padding-right: 50px;
+}
+
+.image-and-name img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.skillsCont {
+    border-bottom: none;
+}
+
+.oneExperience,
+.oneEducation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.duration,
+.oneskill {
+    background-color: #ececec;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.skillsCont .skills {
+    display: flex;
+    gap: 20px;
+}

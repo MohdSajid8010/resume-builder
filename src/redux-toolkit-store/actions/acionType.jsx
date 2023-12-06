@@ -1,0 +1,5 @@
+export const personalInfo = "personalInfo"
+export const professionalSummary = "professionalSummary"
+export const experience = "experience"
+export const education = "education"
+export const skill = "skill"
